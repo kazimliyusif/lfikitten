@@ -13,8 +13,8 @@ Installation: Clone the repository and navigate to the project directory.
 
 
 Copy code
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/kazimliyusif/lfikitten.git
+cd lfikitten
 
 
 Run the Scanner: Execute the main script with Python to learn about options.

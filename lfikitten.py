@@ -1,4 +1,3 @@
-import subprocess
 import requests
 from optparse import OptionParser
 import time

